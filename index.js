@@ -62,6 +62,6 @@ app.delete('/api/notes/:id', function (req, res) {
   res.send('Got a DELETE request')
 })
 
-    app.listen(PORT, () =>
+    app.listen(process.env.PORT || PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
