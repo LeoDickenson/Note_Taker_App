@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/LeoDickenson/Note_Taker_App/issues"
   },
-  "homepage": "https://github.com/LeoDickenson/Note_Taker_App#readme"
+  "homepage": "https://github.com/LeoDickenson/Note_Taker_App#readme",
+  "heroku-run-build-script": true
 }
