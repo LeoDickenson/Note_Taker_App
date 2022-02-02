@@ -1,10 +1,15 @@
 {
+  "dependencies": {
+    "express": "^4.17.2",
+    "uuid": "^8.3.2"
+  },
   "name": "note_taker_app",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,11 +21,5 @@
   "bugs": {
     "url": "https://github.com/LeoDickenson/Note_Taker_App/issues"
   },
-  "homepage": "https://github.com/LeoDickenson/Note_Taker_App#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+  "homepage": "https://github.com/LeoDickenson/Note_Taker_App#readme"
 }
