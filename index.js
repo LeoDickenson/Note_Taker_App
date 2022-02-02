@@ -9,7 +9,7 @@ const { fstat } = require('fs');
 
 // const reviews = require('./db/reviews');
 
-const PORT = 3001;
+const PORT = 5000;
 
 const app = express();
 
